@@ -3,6 +3,7 @@ This repository represents the work achieved for my thesis concerning the sentim
 
 This thesis is composed of three notebooks. Each notebook achieves a specific task. The data used for the purpose of this thesis is open data. In fact, we can find this data online:
 'https://www.kaggle.com/datasets/bittlingmayer/amazonreviews?datasetId=1305&sortBy=voteCount&select=test.ft.txt.bz2'
+
 There are two datasets: 'train.ft.txt.bz2' and 'test.ft.txt.bz2'. In this thesis, we only use the 'train.ft.txt.bz2' which contains a total of 3.6 million reviews. This data is used as the input of the notebook 'PreProcess_Data_Thesis.ipynb'.
 
 Indeed, this notebook is responsible of the pre-processing applied on the raw data 'train.ft.txt.bz2'. The notebook is structured around the multiple transformations performed. The running of this notebook can take some time as we deal with a lot of reviews. At the end of this notebook, we generate the csv file 'small_data_preprocessed.csv'. This output is then used for the notebook 'Machine_Learning_Thesis.ipynb'.
